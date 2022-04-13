@@ -8,7 +8,6 @@ aparm-GEOMETRY.xyz
 aparm.inp.xyz
 
 aparm-GEOMETRY.xyz : a file that contains the XYZ cartesian coordinates (with atomic number or symbol) of the supramolecular system. The first set of coordinates MUST corresponds to the smaller molecule and the second set, to the bigger system or the reference system. 
-ud-aparm-MOLECULE_2-REFERENCE.xyz: a file that contains the XYZ Cartesian coordinates of the fixed in space molecule (usually the greater molecule in a supramolecular system).
 aparm.inp: a file that contains three lines (with total number of atoms, atoms of the smaller molecule and atoms of the reference molecule). 
 
 2.	Installation
