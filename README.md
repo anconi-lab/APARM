@@ -1,7 +1,7 @@
 # APARM
 Software for obtaining association parameters from a supramolecular system (ACS Omega 5, 5013–5025, 2020).
 
-1.	Introduction
+
 The APARM software reads a XYZ file that contains a supramolecular system. 
 To run APARM, you have to use the following files:
 aparm-GEOMETRY.xyz
@@ -10,7 +10,7 @@ aparm.inp.xyz
 aparm-GEOMETRY.xyz : a file that contains the XYZ cartesian coordinates (with atomic number or symbol) of the supramolecular system. The first set of coordinates MUST corresponds to the smaller molecule and the second set, to the bigger system or the reference system. 
 aparm.inp: a file that contains three lines (with total number of atoms, atoms of the smaller molecule and atoms of the reference molecule). 
 
-2.	Installation
+
 The pre-compiled Linux APARM file ("aparm-linux") can be downloaded from https://github.com/anconi-lab/APARM. 
 After creation of the directory "/home/aparm" in your linux distro, into .bashrc ncludes the following line:
 alias aparm='/home/aparm/aparm-linux'
@@ -24,10 +24,10 @@ Relative Position and Relative Rotation in Supramolecular Systems through the An
 
 
 
-3.	APARM input
+
 APARM input consists of three lines. The first line contains the total number of atoms of the supramolecular system, the second line the number of the atoms of the small molecule, and the third with the number of atoms of the reference and fixed molecule. 
 
-4.	How to cite and License
+
 The ideas related to the implementation are descr¬ibed in the contribution published in ACS Omega (Cleber P. A. Anconi, ACS Omega 2020, 5, 5013 – 5025). The codes were improved and revised since the publication. Therefore, the version employed in your work should be identified. For reproducibility, the present version does not handle high symmetric molecules, such as benzene. The multiple possible values for the supramolecular parameters for highly symmetric systems are under investigation. 
 
 LICENSE INFORMATION: To download and use APARM, you are required to read and agree to the following terms:
